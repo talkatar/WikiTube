@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Wikitube</title>
+</head>
+
+<body onload="onInit()">
+    <h1>Wikitube</h1>
+
+
+
+    <form class="form" onsubmit="onSearch(event)">
+
+        <input class="browser-style" list="browsers" name="browser" id="browser" placeholder="Search ">
+        <button>Search</button>
+    </form>
+
+<div class="videos-container"></div>
+
+<div class= detailes>
+    <div class="video"></div>
+    <div class="wiki-conainer">
+
+</div>
+    <div class="title"></div>
+    <p class="info"></p>
+</div>
+
+<div class="settings">
+    <button  class= "btn-clear" onclick="onClearHistory()">Clear</button>
+</div>
+
+
+
+
+    <script src="/services/storage-service.js"></script>
+    <script src="/services/wikitube-service.js"></script>
+    <script src="/main.js"></script>
+
+</body>
+
+</html>
