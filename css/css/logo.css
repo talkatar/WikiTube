@@ -1,0 +1,6 @@
+.logo{
+  color: var(--clr-2);
+}
+.logo>i{
+  color: var(--primary-clr);
+}

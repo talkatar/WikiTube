@@ -1,0 +1,28 @@
+/* MAIN LAYOUT */
+.main-layout {
+	display: grid;
+	grid-template-columns: minmax(10px, 1fr) minmax(auto, 1100px) minmax(10px, 1fr);
+	row-gap: 20px;
+}
+
+.main-layout > *:not(.full) {
+	grid-column: 2;
+}
+
+.main-layout > .full {
+	grid-column: 1 / -1;
+}
+
+.inside-layout {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+
+.prev-layout {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	align-items: center;
+	justify-items: start;
+	gap: 10px;
+}

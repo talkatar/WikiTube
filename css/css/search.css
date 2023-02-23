@@ -1,0 +1,29 @@
+.search-container {
+	display: flex;
+	width: 100%;
+}
+
+.search-container > * {
+	padding: 10px;
+}
+
+.search-container > input {
+	flex: 1;
+	flex-basis: 200px;
+	border-radius: 10px;
+}
+
+.search-container > button {
+	border: 2px solid var(--clr1);
+	border-radius: 10px;
+	color: var(--clr1);
+	cursor: pointer;
+	margin-left: 3px;
+}
+
+.search-container > button:hover {
+	border: 2px solid var(--clr-1);
+	color: var(--clr-1);
+	background-color: var(--primary-clr);
+	opacity: 0.75;
+}

@@ -56,6 +56,7 @@ function renderVideo(videoId){
 function renderWiki(res) {
     console.log(res);
     document.querySelector('.title').innerHTML=res.title
+    console.log(res.info);
     document.querySelector('.info').innerHTML=res.info
 }
 

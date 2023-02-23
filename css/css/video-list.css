@@ -1,0 +1,26 @@
+.videos-list {
+	list-style: none;
+}
+
+.vid-preview {
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.vid-preview:hover {
+	background-color: var(--clr-3);
+	border-radius: 10px;
+}
+
+.vid-preview img {
+	border-radius: 10px;
+	min-width: 100px;
+}
+
+.vid-preview img:hover {
+	opacity: 0.75;
+}
+
+.vid-preview h3 {
+	font-size: clamp(12px, 2vw, 20px);
+}

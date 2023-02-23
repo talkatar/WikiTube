@@ -1,0 +1,13 @@
+.wikipedia {
+	padding: 10px;
+	background-color: var(--clr-3);
+}
+
+.wikipedia > h3 {
+	font-size: clamp(20px, 2.5vw, 2em);
+	margin-bottom: 10px;
+}
+.wikipedia > p {
+	font-size: clamp(14px, 2vw, 1em);
+	line-height: 1.5;
+}
